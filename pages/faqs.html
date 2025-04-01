@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" class="nav-logo"
+          ><img src="/assets/future-logo.png" alt="future logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/team.html">Meet the team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/faqs.html">FAQs</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="faqs-container">
+      <h1>Frequently Asked Questions</h1>
+
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <button class="faq-question">What is an Apprenticeship?</button>
+        <div class="faq-answer">
+          <p>
+            An apprenticeship is a paid job that combines practical work
+            experience with structured training. Apprentices gain
+            industry-recognised qualifications while working and earning a wage.
+          </p>
+          <!-- <p>
+            This website is dedicated to school leavers who have an interest in
+            technology apprenticeships, but may not know how or where to apply.
+            We aim to make the application process easier and clearer to
+            understand, ensuring you have all the tools for success.
+          </p> -->
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <button class="faq-question">How can I contact support?</button>
+        <div class="faq-answer">
+          <p>
+            You can contact support via email at support@future.com, fill out
+            our contact form <a href="/pages/contact.html">here</a> or call us
+            at 123-456-7890.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Who can apply for an apprenticeship?
+        </button>
+        <div class="faq-answer">
+          <p>
+            Apprenticeships are open to anyone aged 16 or over, living in the
+            UK. There is no upper age limit, and they are available to school
+            leavers, career changers, and those looking to upskill.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What do the different apprenticeship levels mean?
+        </button>
+        <div class="faq-answer">
+          <ul>
+            <li>
+              Level 2 (Intermediate): Equivalent to GCSEs; entry-level roles.
+            </li>
+            <li>
+              Level 3 (Advanced): Equivalent to A-levels; builds specialist
+              skills.
+            </li>
+            <li>
+              Level 4-5 (Higher): Equivalent to foundation degreeand above,
+              these are higher apprenticeships.
+            </li>
+            <li>Level 6 (Degree): Equivalent to a full bachelor's degree.</li>
+            <li>
+              Level 7 (Master/’s): Equivalent to a master's degree; senior-level
+              training.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          Why should I consider an apprenticeship?
+        </button>
+        <div class="faq-answer">
+          <p>
+            An apprenticeship allows you to earn while you learn. This means you
+            can put your knowledge straight into practice whilst gaining
+            invaluable experience. It's a great way to start a career, whilst
+            being debt free!
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          How long will a technology degree apprenticeship last?
+        </button>
+        <div class="faq-answer">
+          <p>
+            The length of a degree apprenticeship depends on the level and type.
+            Most degree apprenticeships last around 3-6 years. You can find out
+            about the duration of a specific apprenticeship on their job
+            description page.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <button class="faq-question">
+          What will happen after my degree apprenticeship?
+        </button>
+        <div class="faq-answer">
+          <p>
+            Your company may decide they would like to keep you on and therefore
+            you can continue working for them. However, you may decide to move
+            on to different opportunities.
+          </p>
+        </div>
+      </div>
+
+      <!-- Add more FAQ items as needed -->
+    </div>
+    <script>
+      // JavaScript to handle FAQ expand/collapse
+      document.querySelectorAll(".faq-question").forEach((button) => {
+        button.addEventListener("click", () => {
+          const answer = button.nextElementSibling;
+          answer.classList.toggle("open"); // Toggle the 'open' class to show/hide the answer
+
+          // Optional: Rotate the button arrow (if you add an arrow icon)
+          button.classList.toggle("active");
+        });
+      });
+    </script>
+    <script src="/script.js"></script>
+
+    <footer>
+      <div class="footer-container">
+          <ul class="footer-nav">
+              <li><a href="/pages/resources.html">Resources</a></li>
+              <li><a href="/pages/contact.html">Contact</a></li>
+              <li><a href="/pages/team.html">Meet the Team</a></li>
+          </ul>
+          <p class="footer-text">© 2025 Future. All rights reserved.</p>
+      </div>
+  </footer>
+    
+  </body>
+</html>

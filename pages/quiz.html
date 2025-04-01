@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" class="nav-logo"
+          ><img src="/assets/future-logo.png" alt="future logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/team.html">Meet the team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/faqs.html">FAQs</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- QUIZ -->
+    <main>
+      <div class="quiz-container">
+        <div id="welcome-page">
+          <h1>WHICH TECH SECTOR IS THE RIGHT FIT FOR YOU?</h1>
+          <div class="left">
+            <img class="icon" src="/assets/cyber-icon.png" alt="sector-icon" />
+            <img class="icon" src="/assets/data-icon.png" alt="sector-icon" />
+            <img class="icon" src="/assets/it-icon.png" alt="sector-icon" />
+            <img
+              class="icon"
+              src="/assets/software-icon.png"
+              alt="sector-icon"
+            />
+          </div>
+          <div class="right">
+            <p>
+              It can be very daunting trying to figure out which sector of
+              technology to get into. <br />So we've designed a quiz to help you
+              figure out the sector that aligns best with your personality <br />
+              and would possibly be a great fit for you.
+            </p>
+            <button id="start-btn">GO</button>
+          </div>
+        </div>
+
+        <div id="questions-page">
+          <h1 id="question-text"><!-- dynamically rendered --></h1>
+          <div class="sector-icons">
+            <img class="icon" src="/assets/cyber-icon.png" alt="sector-icon" />
+            <img class="icon" src="/assets/data-icon.png" alt="sector-icon" />
+            <img class="icon" src="/assets/it-icon.png" alt="sector-icon" />
+            <img
+              class="icon"
+              src="/assets/software-icon.png"
+              alt="sector-icon"
+            />
+          </div>
+          <div id="options">
+            <!-- dynamically rendered -->
+          </div>
+        </div>
+
+        <div id="results-page">
+          <h2>You got...</h2>
+          <div id="cyber-result">
+            <h1>Cyber Security</h1>
+            <img class="icon" src="/assets/cyber-icon.png" alt="sector-icon" />
+            <p class="result-text">
+              You have a keen eye for detail and enjoy solving puzzles. Cyber
+              security is all about protecting data and systems from threats. If
+              you like thinking critically and staying ahead of challenges, this
+              could be the perfect field for you!
+            </p>
+          </div>
+          <div id="software-result">
+            <h1>Software</h1>
+            <img
+              class="icon"
+              src="/assets/software-icon.png"
+              alt="sector-icon"
+            />
+            <p class="result-text">
+              You're a problem solver with a creative mind. Software development
+              involves building apps, websites, and systems that people use
+              every day. If you enjoy logical thinking and bringing ideas to
+              life, this could be your ideal career path!
+            </p>
+          </div>
+          <div id="data-result">
+            <h1>Data Science</h1>
+            <img class="icon" src="/assets/data-icon.png" alt="sector-icon" />
+            <p class="result-text">
+              You love spotting patterns and making sense of information. Data
+              science is about using data to solve problems, predict trends, and
+              make decisions. If you enjoy working with numbers and uncovering
+              insights, this could be your perfect fit!
+            </p>
+          </div>
+          <div id="it-result">
+            <h1>IT</h1>
+            <img class="icon" src="/assets/it-icon.png" alt="sector-icon" />
+            <p class="result-text">
+              You're a natural at troubleshooting and helping others. IT
+              professionals keep businesses running smoothly by managing
+              systems, networks, and tech support. If you enjoy hands-on work
+              and problem-solving, this could be the right sector for you!
+            </p>
+          </div>
+
+          <button id="start-again-btn">START AGAIN</button>
+        </div>
+      </div>
+    </main>
+    <script src="/script.js"></script>
+    <script src="/quiz.js"></script>
+    <script src="/questions.js"></script>
+  </body>
+</html>

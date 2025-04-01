@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future</title>
+    <link rel="stylesheet" href="indexcss.css" />
+    <script src="functions.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" class="nav-logo"><img src="/assets/future-logo.png" alt="future logo"></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/team.html">Meet the team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/faqs.html">FAQs</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <button class="prev" onclick="prev_Slide()">&#10094;</button>
+      <div class="slide-container">
+        <img class="slide" src="/assets/images/Banner1.png" alt="Welcome" />
+        <a href="pages/quiz.html">
+          <img class="slide" src="/assets/images/Banner2.png" alt="Quiz Banner"/>
+        </a>
+        <a href="pages/resources.html">
+          <img class="slide" src="/assets/images/Banner3.png" alt="Resources Banner"/>
+        </a>
+        <a href="pages/contact.html">
+          <img class="slide" src="/assets/images/Banner4.png" alt="Contact Us Banner">
+        </a>
+        <a href="https://discord.gg/UNdVhZ5s" target="_blank">
+          <img class="slide" src="/assets/images/Banner5.png" alt="Community Hub Banner">
+        </a>
+      </div>
+      <button class="next" onclick="next_Slide()">&#10095;</button>
+    </div>
+
+    <br />
+
+    <div class="title">
+      <h1 class="title">About <span style="color: rgb(32, 75, 145)">Us</span></h1>
+    </div> 
+    <div class="container">
+      <img src="/assets/images/flogo.png" alt="Logo" />
+      <p id="welcome-message">
+        Welcome to Future, a resource hub coming to you from the world-leading
+        organisation, Accenture! We are dedicated to helping aspiring technology
+        degree apprenticeships navigate their journey into their ideal sector
+        and dream company. <!-- Whether you are just exploring your options or
+        looking to take the next step in your apprenticeship career, we provide
+        comprehensive guidance, valuable insights, and a wealth of resources
+        designed to help you find the perfect match for your skills and
+        aspirations. Our mission is to bridge the gap between apprentices and
+        top tech companies, ensuring that every individual has the tools and
+        support they need to succeed in the ever-evolving world of technology.
+        Explore our resources and start building your future today! -->
+      </p>
+    </div>
+
+    <br />
+
+    <div class="vid">
+      <h1>Our <span style="color: rgb(32, 75, 145);">Purpose</span></h1>
+      <br />
+      <video controls>
+        <source src="/assets/video/home-video.MOV" />
+        <track
+          kind="captions"
+          src="/assets/captions/caption.vtt"
+          srclang="en"
+          label="English"
+        /></video
+      ><br />
+    </div>
+
+    <br />
+  <div class="formlink">
+    <div class="box">
+      <h1>Don't know what to do?</h1>      
+      <p>
+        If you are unsure on which sector you want to go into or which industry
+        you are more suitable for, click this link to complete our quiz which
+        helps you choose which sector you are more personalised for depending on
+        your answers.
+      </p>
+      <div class="button">
+        <a href="pages/quiz.html">Take the quiz</a>
+      </div>
+    </div>
+  </div>
+
+    <script src="/script.js"></script>
+
+    <footer>
+      <div class="footer-container">
+          <ul class="footer-nav">
+              <li><a href="/pages/resources.html">Resources</a></li>
+              <li><a href="/pages/contact.html">Contact</a></li>
+              <li><a href="/pages/team.html">Meet the Team</a></li>
+          </ul>
+          <p class="footer-text">© 2025 Future. All rights reserved.</p>
+      </div>
+  </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
